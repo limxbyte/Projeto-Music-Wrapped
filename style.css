@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+.welcome{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            #7b2cff,
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            #00d084,
+            transporent 40%
+        ),
+        #0b0b0b;
+}
+.content{
+    width: 90%;
+    max-width: 700px;
+}
+.year{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+h1{
+   font-size: clamp(70px, 12vw, 150px);
+   line-height: 0.85;
+   text-transform: uppercase;
+   margin-bottom: 30px; 
+}
+.description{
+    max-width: 450px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #dddddd;
+    margin-bottom: 40px;
+}
+button{
+    border: none;
+    background: white;
+    color: #111;
+
+    padding: 16px 35px;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transform: 0.3s;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.wrapped{
+    display: none;
+    min-height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #111;
+}
+.wrapped h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.wrapped h3{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.plays{
+    font-size: 20px;
+    color: #cccccc;
+}
+.artist-image{
+    width:220px;
+    height:220px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin:30px 0;
+
+    border:6px solid #1DB954;
+
+    box-shadow:0 0 30px rgba(29,185,84,.5);
+}
+
+.wrapped{
+    text-align:center;
+}
+
+.wrapped h2{
+    font-size:32px;
+}
+
+.wrapped h3{
+    font-size:55px;
+    color:#1DB954;
+}
+
+.plays{
+    font-size:22px;
+}
