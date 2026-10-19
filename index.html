@@ -28,8 +28,154 @@
             <h2>Seu artista<br>mais ouvido foi</h2>
             <h3 id="artistName"></h3>
             <p class="plays" id="artistPlays"></p>
+            <button id="nextArtist">
+    Próximo →
+</button>
         </div>
     </section>
-    <script src="app.js"></script>
+      
+<section class="music" id="music">
+
+    <div class="content">
+
+        <p class="year">SUA MÚSICA FAVORITA</p>
+
+        <img src="assets/album.jpg" alt="Álbum" class="artist-image">
+
+        <h2 id="musicName">Seven</h2>
+
+        <p id="musicArtist">Jung Kook</p>
+
+        <p class="plays" id="musicPlays">
+            521 reproduções
+        </p>
+
+        <button id="nextMusic">
+            Próximo →
+        </button>
+
+    </div>
+
+</section>
+<section class="top-artists" id="topArtists">
+
+    <div class="content">
+
+        <p class="year">SEUS ARTISTAS MAIS OUVIDOS</p>
+
+        <h2>TOP 5</h2>
+
+        <div class="artist-list">
+
+            <div class="artist-item">
+                <span>01</span>
+                <strong>Jung Kook</strong>
+            </div>
+
+            <div class="artist-item">
+                <span>02</span>
+                <strong>BTS</strong>
+            </div>
+
+            <div class="artist-item">
+                <span>03</span>
+                <strong>The Weeknd</strong>
+            </div>
+
+            <div class="artist-item">
+                <span>04</span>
+                <strong>Ariana Grande</strong>
+            </div>
+
+            <div class="artist-item">
+                <span>05</span>
+                <strong>Taylor Swift</strong>
+            </div>
+
+        </div>
+
+        <button id="nextArtists">
+            Próximo →
+        </button>
+
+    </div>
+
+</section>
+<section class="top-music" id="topMusic">
+
+    <div class="content">
+
+        <p class="year">SUAS MÚSICAS MAIS OUVIDAS</p>
+
+        <h2>TOP 5</h2>
+
+        <div id="musicList"></div>
+
+        <button id="nextTopMusic">
+            Próximo →
+        </button>
+
+    </div>
+
+</section>
+
+<section class="genres" id="genres">
+    <div class="content">
+        <p class="year">SEU GOSTO MUSICAL EM 2026</p>
+        <h2>Seus gêneros</h2>
+
+        <div class="genre-item">
+            <div class="genre-info">
+                <span>K-pop</span>
+                <strong>65%</strong>
+            </div>
+            <div class="genre-bar">
+                <div class="genre-fill" style="width: 65%"></div>
+            </div>
+        </div>
+
+        <div class="genre-item">
+            <div class="genre-info">
+                <span>Pop</span>
+                <strong>25%</strong>
+            </div>
+            <div class="genre-bar">
+                <div class="genre-fill" style="width: 25%"></div>
+            </div>
+        </div>
+
+        <div class="genre-item">
+            <div class="genre-info">
+                <span>R&B</span>
+                <strong>10%</strong>
+            </div>
+            <div class="genre-bar">
+                <div class="genre-fill" style="width: 10%"></div>
+            </div>
+        </div>
+
+        <button id="nextGenres">Próximo →</button>
+    </div>
+</section>
+
+<section class="final-screen" id="finalScreen">
+    <div class="content">
+        <p class="year">MUSIC WRAPPED 2026</p>
+
+        <h2>Esse foi o seu<br>ano em músicas.</h2>
+
+        <p class="final-message">
+            Cada música contou um pouco da sua história.
+            Que venha uma nova trilha sonora!
+        </p>
+
+        <div class="final-emoji">🎧 ✨ 💜</div>
+
+        <button id="restartButton">Rever meu Wrapped ↻</button>
+    </div>
+</section>
+
+
+<script src="app.js"></script>
 </body>
 </html>
